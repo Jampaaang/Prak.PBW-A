@@ -1,0 +1,57 @@
+/* style_add.css */
+
+/* Resetting some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Centering the title */
+h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 30px; /* Space below the title */
+    font-weight: bold; /* Make the title bold */
+    color: #343a40; /* Darker text color */
+}
+
+/* Form styling */
+form {
+    max-width: 400px; /* Maximum width of the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #495057; /* Darker label color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Full width of the input */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

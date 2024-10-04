@@ -1,0 +1,65 @@
+/* style_admin.css */
+
+/* Resetting some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 30px; /* Space below the title */
+    font-weight: bold; /* Make the title bold */
+    color: #343a40; /* Darker text color */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Bootstrap primary color */
+    margin: 0 10px; /* Space between links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Styling for the table */
+table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    border: 1px solid #ced4da; /* Light border for cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #007bff; /* Blue background for header */
+    color: white; /* White text in header */
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Slightly darker gray on row hover */
+}
+
+/* Action buttons styling */
+td a {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for action buttons */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+td a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

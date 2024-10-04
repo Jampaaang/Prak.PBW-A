@@ -1,0 +1,45 @@
+/* style_home.css */
+
+/* Resetting some default styles */
+body {
+    font-family: Arial, sans-serif; /* Font type */
+    background-color: #f0f2f5; /* Light gray background */
+    margin: 0; /* No margin */
+    padding: 20px; /* Padding around the body */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Centering the title */
+h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #343a40; /* Darker text color */
+}
+
+/* Paragraph styling */
+p {
+    text-align: center; /* Center the paragraph text */
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #6c757d; /* Gray color for the text */
+}
+
+/* Link styling */
+a {
+    display: inline-block; /* Make the link a block element */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Space above the link */
+    padding: 10px 20px; /* Padding around the link */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
