@@ -94,7 +94,7 @@ Sistem CRUD berhasil diimplementasikan dengan baik untuk pengelolaan data barang
 
 ### Halaman Admin
 
-![Halaman Admin](screenshots/admin.png)
+![Halaman Admin](https://github.com/Jampaaang/Prak.PBW-A/blob/091813fdb89b72c0c61bd7b32054236dad65c2fe/Tugas5/Image/Halaman%20Admin.jpeg)
 
 ### Tambah Barang
 
