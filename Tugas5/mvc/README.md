@@ -24,7 +24,8 @@ MVC adalah pola arsitektur pengembangan software yang memisahkan aplikasi menjad
 
 3. Implementasi
 3.1 Struktur Proyek
-![Form Login](Tugas5/Image/struktur.jpeg)
+   ![image](https://github.com/user-attachments/assets/07a14401-be79-4814-9ead-c5a47496aaf1)
+
 
 
 3.2 Komponen Utama
