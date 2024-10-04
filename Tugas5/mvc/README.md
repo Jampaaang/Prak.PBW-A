@@ -102,11 +102,11 @@ Sistem CRUD berhasil diimplementasikan dengan baik untuk pengelolaan data barang
 
 ### Edit Barang
 
-![Edit Barang](screenshots/edit.png)
+![Edit Barang](https://github.com/Jampaaang/Prak.PBW-A/blob/99a6199226d12699136e5c8f32fc63508e413b79/Tugas5/Image/Halaman%20Edit.jpeg)
 
 ## Kontribusi
 
-Dibuat oleh [Jati Rahmatulloh].
+Dibuat oleh [Jati Rahmatulloh - 4522210039].
 
 ## Lisensi
 
