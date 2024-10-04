@@ -1,7 +1,5 @@
 # Laporan Praktikum Implementasi MVC, Cookies, dan Sessions dengan PHP
 ### 1. Pendahuluan
-
-#### 1.1 Latar Belakang
 Praktikum ini dilaksanakan untuk mempelajari dan mengimplementasikan konsep Model-View-Controller (MVC) dalam pengembangan aplikasi web menggunakan PHP. Selain itu, praktikum ini juga mencakup penggunaan cookies dan sessions untuk manajemen state aplikasi, serta pembuatan sistem CRUD (Create, Read, Update, Delete) untuk pengelolaan data barang.
 
 #### 1.2 Tujuan
