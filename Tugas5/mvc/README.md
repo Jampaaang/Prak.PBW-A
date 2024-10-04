@@ -98,7 +98,7 @@ Sistem CRUD berhasil diimplementasikan dengan baik untuk pengelolaan data barang
 
 ### Tambah Barang
 
-![Tambah Barang](screenshots/add.png)
+![Tambah Barang](https://github.com/Jampaaang/Prak.PBW-A/blob/46942f59fc726c0de82dff9e1c68d84b3543eff2/Tugas5/Image/Halaman%20Tambah%20Barang.jpeg)
 
 ### Edit Barang
 
