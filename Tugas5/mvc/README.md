@@ -88,7 +88,7 @@ Sistem CRUD berhasil diimplementasikan dengan baik untuk pengelolaan data barang
 
 ### Halaman Home
 
-![Halaman Home](screenshots/home.png)
+![Halaman Home](https://github.com/Jampaaang/Prak.PBW-A/blob/9faba112fd8bac26acf870e714bb57807c8d14d9/Tugas5/Image/Halaman%20Home.jpeg)
 
 ### Form Login
 
