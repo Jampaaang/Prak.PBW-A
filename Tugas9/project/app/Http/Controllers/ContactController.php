@@ -6,7 +6,10 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function index()
+    /**
+     * Handle the incoming request.
+     */
+    public function index(Request $request)
     {
         return view('contact');
     }

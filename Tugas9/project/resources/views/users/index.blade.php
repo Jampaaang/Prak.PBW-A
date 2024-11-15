@@ -8,7 +8,7 @@
                 email and role.</x-slot>
         </x-section-title>
         <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
-            <x-button as="a" href="/users/create">
+            <x-button class="bg-red-500" as="a" href="/users/create">
                 Add user
             </x-button>
         </div>
@@ -18,12 +18,9 @@
             <x-table.thead>
                 <tr>
                     <x-table.th>No</x-table.th>
-                    <x-table.th>Name
-                    </x-table.th>
-                    <x-table.th>Email
-                    </x-table.th>
-                    <x-table.th>Creat-at
-                    </x-table.th>
+                    <x-table.th>Name</x-table.th>
+                    <x-table.th>Email</x-table.th>
+                    <x-table.th>Created At</x-table.th>
                 </tr>
             </x-table.thead>
             <x-table.tbody>
@@ -31,8 +28,6 @@
                 <tr>
                     <x-table.td>
                         {{$user->id}}
-                        <!-- kalo data tidak beraturan maka seharusnya menggunakan iteriton :
-                         $loop->iteration -->
                     </x-table.td>
                     <x-table.td>
                         {{$user->name}}
@@ -41,18 +36,12 @@
                         {{$user->email}}
                     </x-table.td>
                     <x-table.td>
-                        {{$user->created_at->format('d M Y')}} ||
-                        {{$user->created_at->diffForHumans()}}
+                        {{$user->created_at->format('d M Y')}}
                     </x-table.td>
                     <x-table.td>
-                        <div class="flex justify-end gap-x-2">
-                            <a href="/users/{{$user->id}}" class="hover:underline">
-                                View
-                            </a>
-                            <a href="/users/{{$user->id}}/edit" class="hover:underline">
-                                edit
-                            </a>
-                        </div>
+                        <a href="/users/{{ $user->id }}">
+                            View
+                        </a>
                     </x-table.td>
                 </tr>
                 @endforeach

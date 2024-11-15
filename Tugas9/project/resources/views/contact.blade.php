@@ -1,4 +1,4 @@
-<x-app-layout title="contact">
-    <x-slot name="heading">Contact</x-slot>
-    Welcome contact
+<x-app-layout title="Contact">
+    <x-slot name='heading'>Contact</x-slot>
+    Contact content
 </x-app-layout>
